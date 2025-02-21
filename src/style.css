@@ -1,0 +1,152 @@
+.container-principal {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+.container-tabela{
+    width: 70vw;
+    margin-top: 1rem;
+}
+
+/* botão da tabela o crud */
+
+.btn-arquivar, 
+.btn-delete, 
+.btn-update, 
+.btn-desarquivar{
+    margin-right: .5rem;
+    border: 1.5px solid rgb(35, 50, 125);
+    color: rgb(86, 106, 210);
+    transition: .5s;
+    padding: 10px; /* Aumenta o espaço interno */
+}
+
+.btn-update {
+    padding: 10px; 
+    display: inline-block; /* Garante que ocupe o espaço adequado */
+    border-radius: 8px;
+}
+
+
+.btn-crud button:hover, 
+.btn-update:hover,
+.buttons-arquivados-crud button:hover{
+    background-color: rgb(35, 50, 125);
+    color: #e8f0fe;
+    border: 1px solid rgb(35, 50, 125);
+
+}
+
+/* botão add e arquivados */
+.btn-button{
+    width: 70vw;
+    margin-bottom: 4rem;
+    /* justify-content: flex-start; */
+    display: flex;
+}
+.btn{
+    width: 550px;
+    height: 40px;
+    margin-left: 1rem;
+    border: 1.5px solid rgb(35, 50, 125);
+    color: rgb(132, 143, 199);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+
+.btn-button > a:hover,
+ .btn-button-voltar > a:hover,
+ .btn:hover{
+    background-color: rgb(35, 50, 125);
+    color: #e8f0fe;
+}
+
+/* botão voltar*/
+.btn-button-voltar > button{
+    text-align: center;
+    width: 150px;
+    margin-left: 1rem;
+    border: 1.5px solid rgb(35, 50, 125);
+    border-radius: 5px;
+    margin-bottom: 5rem;
+    /* justify-content: left; */
+}
+.btn-button-voltar {
+    width: 70vw;
+}
+
+/* Botão quando selecionados os itens */
+.btn-selecionados > button{
+    font-size: 13px;
+    background-color: rgba(35, 50, 125, 0.476);
+    margin-right: .5rem;
+    border: none;
+    transition: .5s;
+
+}
+
+.btn-selecionados > button:hover{
+    background-color: rgba(35, 50, 125, 0.782);
+    color: #e8f0fe;
+}
+
+.config-tabela{
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+}
+
+input[type="text"]{
+    height: 25px;
+    font-size: 15px;
+    border: 1.5px solid rgba(35, 50, 125, 0.54);
+    background-color: rgba(35, 50, 125, 0.093);
+    border-radius: 5px;
+    width: 350px;
+    padding-left: .5rem;
+}
+
+
+/* Reponsividade */
+
+@media only screen and (max-width: 600px) {
+    .container-principal {
+        margin-top: 2rem;
+    }
+    .btn-button{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .btn-button > a{
+        width: 70vw;
+    }
+    .config-tabela{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 931px){
+    .config-tabela{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+    .btn-button{
+        display: flex;
+        gap: 1rem;
+    }
+    .btn-button > a{
+        width: 220px;
+    }
+}

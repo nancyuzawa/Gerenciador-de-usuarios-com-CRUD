@@ -1,0 +1,34 @@
+@import 'datatables.net-dt';
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.text-end{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.btn{
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.btn:hover{
+  background-color: black;
+  color: white;
+}
+
+.btn-delete, .btn-update{
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: rgb(157, 200, 226);
+  color: black;
+  padding: 0 5px;
+}
