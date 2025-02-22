@@ -18,7 +18,7 @@
 
 
 <p align="center">  
-	<a href="#sobre">Sobre</a> • <a href="#demo">Demonstração da aplicação</a> • <a href="#tecnologias">Tecnologias</a> 
+	<a href="#sobre">Sobre</a> • <a href="#demo">Demonstração da aplicação</a> • <a href="#tecnologias">Tecnologias</a> • <a href="#guia">Guia de Instalação</a> 
 </p>
 
 <h2 id="sobre">
@@ -62,7 +62,7 @@ https://github.com/user-attachments/assets/c4245ff6-6c16-4943-9e93-e652e188c7c3
     <li>CSS – Estilização dos componentes.</li>
   </ul>
 
-<h2>Inicializando o projeto na sua máquina</h2>
+<h2 id="guia">Inicializando o projeto na sua máquina</h2>
 <h3>1. Clone o repositório</h3>
 
 ```bash
