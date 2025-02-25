@@ -94,10 +94,10 @@ Navegue até cada pasta e execute o comando abaixo no terminal:
 npm install
 ```
 
-<h3>3. Configure o arquivo <code>.env</code>code></h3>
+<h3>3. Configure o arquivo <code>.env</code></h3>
 
  <p>
-   No diretório <code>backend</code>, crie um arquivo chamado <code>.env</code> e adicione as seguintes variáveis:
+   No diretório <code>backend</code>, crie um arquivo chamado <code>.env </code> e adicione as seguintes variáveis:
  </p>
  
  ```bash
