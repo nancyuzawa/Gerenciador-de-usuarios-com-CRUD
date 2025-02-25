@@ -1,6 +1,15 @@
+<h2>Minhas anotações</h2>
+<a href="https://docs.google.com/document/d/1_vYwbBMUqW9ZGIsXMuPgS_PvWjwC3-U22-K-ufV8HS8/edit?usp=sharing">
+	<img height="30" align="center" alt="icone documento" src="https://img.icons8.com/?size=100&id=pUcPvleXXJfg&format=png&color=000000">
+	Minha anotação
+</a>
+</br>
+</br>
 <h1>
 	Gerenciador de usuários
 </h1>
+
+</br>
 <p align="center">
 	Criação de um gerenciador para a realização das operações de CRUD (Create, Read, Update, Delete).
 </p>
